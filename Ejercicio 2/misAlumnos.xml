@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aula SYSTEM "misAlumnos.dtd">
+<?xml-stylesheet type="text/xsl" href="misAlumnos.xsl"?>
+<aula>
+	<alumno dni="a1">
+		<nombre>Ignacio</nombre>
+		<apellidos>Serrano Rodríguez</apellidos>
+		<sexo>masculino</sexo>
+		<fechaNacimiento>
+			<dia>1</dia>
+			<mes>3</mes>
+			<anio>2000</anio>
+		</fechaNacimiento>
+		<direccion>
+			<calle>calle 1</calle>
+			<localidad>localidad 1</localidad>
+			<provincia>provincia 1</provincia>
+			<CP>CP 1</CP>
+		</direccion>
+		<telefonos>
+			<telefono tipo="fijo">617-1</telefono>
+			<telefono tipo="móvil">956-1</telefono>
+		</telefonos>
+		<notaMedia>7.2</notaMedia>
+	</alumno>
+	<alumno dni="a2">
+		<nombre>Casandra</nombre>
+		<apellidos>Apellido1 Apellido2</apellidos>
+		<sexo>femenino</sexo>
+		<fechaNacimiento>
+			<dia>2</dia>
+			<mes>3</mes>
+			<anio>2000</anio>
+		</fechaNacimiento>
+		<direccion>
+			<calle>calle 2</calle>
+			<localidad>localidad 2</localidad>
+			<provincia>provincia 2</provincia>
+			<CP>CP 2</CP>
+		</direccion>
+		<telefonos>
+			<telefono tipo="fijo">617-2</telefono>
+			<telefono tipo="móvil">956-2</telefono>
+		</telefonos>
+		<notaMedia>7.2</notaMedia>
+	</alumno>
+	<alumno dni="a3">
+		<nombre>Samuel</nombre>
+		<apellidos>Apellido1 Apellido2</apellidos>
+		<sexo>masculino</sexo>
+		<fechaNacimiento>
+			<dia>3</dia>
+			<mes>3</mes>
+			<anio>2000</anio>
+		</fechaNacimiento>
+		<direccion>
+			<calle>calle 3</calle>
+			<localidad>localidad 3</localidad>
+			<provincia>provincia 3</provincia>
+			<CP>CP 3</CP>
+		</direccion>
+		<telefonos>
+			<telefono tipo="fijo">617-3</telefono>
+			<telefono tipo="móvil">956-3</telefono>
+		</telefonos>
+		<notaMedia>8.2</notaMedia>
+		</alumno>
+	<alumno dni="a4">
+		<nombre>Lidia</nombre>
+		<apellidos>Apellido1 Apellido2</apellidos>
+		<sexo>femenino</sexo>
+		<fechaNacimiento>
+			<dia>4</dia>
+			<mes>3</mes>
+			<anio>2000</anio>
+		</fechaNacimiento>
+		<direccion>
+			<calle>calle 4</calle>
+			<localidad>localidad 4</localidad>
+			<provincia>provincia 4</provincia>
+			<CP>CP 4</CP>
+		</direccion>
+		<telefonos>
+			<telefono tipo="fijo">617-4</telefono>
+			<telefono tipo="móvil">956-4</telefono>
+		</telefonos>
+		<notaMedia>7.3</notaMedia>
+	</alumno>
+	<alumno dni="a5">
+		<nombre>Alejandro</nombre>
+		<apellidos>Apellido1 Apellido2</apellidos>
+		<sexo>masculino</sexo>
+		<fechaNacimiento>
+			<dia>5</dia>
+			<mes>3</mes>
+			<anio>2000</anio>
+		</fechaNacimiento>
+		<direccion>
+			<calle>calle 5</calle>
+			<localidad>localidad 5</localidad>
+			<provincia>provincia 5</provincia>
+			<CP>CP 5</CP>
+		</direccion>
+		<telefonos>
+			<telefono tipo="fijo">617-5</telefono>
+			<telefono tipo="móvil">956-5</telefono>
+		</telefonos>
+		<notaMedia>8.3</notaMedia>
+	</alumno>
+</aula>

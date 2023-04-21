@@ -1,0 +1,23 @@
+<!--  Elementos-->
+<!ELEMENT aula (alumno*)>
+  <!ELEMENT alumno (nombre, apellidos, sexo?, fechaNacimiento, direccion, telefonos, notaMedia)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT sexo (#PCDATA)>
+    <!ELEMENT fechaNacimiento (dia, mes, anio)>
+      <!ELEMENT dia (#PCDATA)>
+      <!ELEMENT mes (#PCDATA)>
+      <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT direccion (calle, localidad, provincia, CP)>
+      <!ELEMENT calle (#PCDATA)>
+      <!ELEMENT localidad (#PCDATA)>
+      <!ELEMENT provincia (#PCDATA)>
+      <!ELEMENT CP (#PCDATA)>
+    <!ELEMENT telefonos (telefono, telefono)>
+      <!ELEMENT telefono (#PCDATA)>
+      <!--<!ELEMENT telefono (#PCDATA)>-->
+    <!ELEMENT notaMedia (#PCDATA)>
+    
+<!--  Atributos-->
+ <!ATTLIST alumno dni ID #REQUIRED>
+ <!ATTLIST telefono tipo (fijo | móvil) "fijo">
